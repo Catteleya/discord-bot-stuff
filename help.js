@@ -20,7 +20,13 @@ module.exports = {
             .addFields({ name: 'Page 8', value: 'Moderation Commands | Button 8'})
 
         const info = new EmbedBuilder()
-            .setTitle('Test')
+            .setTitle("/home/bots/tbyw/info.md")
+            .setDescription("**__ Creater:__ _<@608493376861634573>_**\n\n**Useful commands:**\n> /help | Help command\n> /review | Review tihs bot :3 | WE GET THE RESPONCES\n> /ecohelp | economy help")
+            .setColor("#0000ff")
+            .setFooter({
+                text: "TBYW",
+                iconURL: "https://slate.dan.onl/slate.png",
+            });
 
         const CCommands = new EmbedBuilder()
             .setTitle('Community Commands')
